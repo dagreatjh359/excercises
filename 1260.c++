@@ -1,4 +1,4 @@
-// BOJ 1260
+// BOJ 1260 bfs, dfs
 #include <iostream>
 #include <stack>
 #include <queue>
