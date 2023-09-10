@@ -1,4 +1,4 @@
-// BOJ 2003
+// BOJ 2003 two pointers
 #include <iostream>
 
 using namespace std;
