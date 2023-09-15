@@ -1,4 +1,4 @@
-// BOJ 2178
+// BOJ 2178 - BFS
 #include <iostream>
 #include <vector>
 #include <string>
