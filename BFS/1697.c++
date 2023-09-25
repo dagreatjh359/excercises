@@ -1,7 +1,6 @@
 // BOJ 1697
 #include <iostream>
 #include <queue>
-#include <cmath>
 
 using namespace std;
 bool visited[100001];
