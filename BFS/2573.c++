@@ -96,7 +96,8 @@ void solution()
 
                         for (int search = 0; search < 4; search++)
                         {
-                            if (H[y + dy[search]][x + dx[search]] != 0 && !visited[y + dy[search]][x + dx[search]])
+                            if (H[y + dy[search]][x + dx[search]] != 0 && !visited[y + dy[search]][x + dx[search]]) 
+                                //only finds "H"element that is not 0 -> no need to find bounds
                             {
                                 q.push(pair(y + dy[search], x + dx[search]));
                                 visited[y + dy[search]][x + dx[search]] = true;
